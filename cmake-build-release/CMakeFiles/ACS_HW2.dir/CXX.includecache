@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ACS/ACS_HW2/container.h
+movie.h
+D:/ACS/ACS_HW2/movie.h
+
+D:/ACS/ACS_HW2/main.cpp
+iostream
+-
+container.h
+D:/ACS/ACS_HW2/container.h
+cstring
+-
+ctime
+-
+chrono
+-
+
+D:/ACS/ACS_HW2/movie.h
+fstream
+-
+movie.h
+D:/ACS/ACS_HW2/movie.h
+
